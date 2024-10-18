@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178151212055",
+    "project_id": "too-doo-list-app",
+    "storage_bucket": "too-doo-list-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178151212055:android:11bdbb161407e2d3980852",
+        "android_client_info": {
+          "package_name": "com.example.toodoolistapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFw1hoW35J9T9F83J7BjGukiczAyLdDHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

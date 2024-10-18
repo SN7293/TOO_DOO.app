@@ -1,0 +1,35 @@
+<resources>
+    <string name="nothing_to_do">Nothing to do!</string>
+    <string name="mic_button">Mic Button</string>
+    <string name="enter_task_here">Enter task here...</string>
+    <string name="add_task">Add Task</string>
+    <string name="search_icon">Search Icon</string>
+    <string name="all_lists">All Lists</string>
+    <string name="enter_quick_task_here">Enter Quick Task Here</string>
+    <string name="new_task">New Task</string>
+    <string name="check_icon_description" />
+    <string name="add_task_button_description">\n</string>
+    <string name="menu_icon_description">\n\n</string>
+    <string name="new_list">\n</string>
+    <string name="mic_icon_description" />
+    <string name="file_button">file button</string>
+    <string name="add">Add</string>
+    <string name="add_button">Add button</string>
+    <string name="due_date">Due Date</string>
+    <string name="date_not_set">Date not set</string>
+    <string name="notifications">Notifications</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="add_to_list">Add to List</string>
+    <string name="save_task">Save Task</string>
+    <string name="personal">personal</string>
+    <string name="shopping">shopping</string>
+    <string name="whishlist">Whishlist</string>
+    <string name="work">Work</string>
+    <string name="icon_arrow" />
+    <string name="what_is_to_be_done">what is to be done?</string>
+    <string name="done">Done</string>
+    <string name="stop">stop</string>
+    <string name="home">Home</string>
+    <string name="all_list">all list</string>
+    <string name="person">Person</string>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#1877F2">
+
+        <TextView
+            android:id="@+id/newTaskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_task"
+            android:fontFamily="@font/arial_black"
+            android:textSize="24sp"
+            android:padding="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:text="@string/what_is_to_be_done"
+        android:fontFamily="@font/arial_black"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="100dp" />
+
+    <EditText
+        android:id="@+id/taskInput"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/arial_black"
+        android:hint="@string/enter_task_here"
+        android:inputType="text"
+        android:background="@android:drawable/edit_text"
+        android:textSize="18sp"
+        android:layout_marginTop="130dp"
+        android:padding="16dp"
+        android:textColor="#F8F0F0" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_mic_24"
+        android:layout_toEndOf="@+id/taskInput"
+        android:layout_marginTop="140dp"
+        android:contentDescription="mic_button"
+        app:tint="@color/white" />
+    <TextView
+        android:id="@+id/dueDateLabel"
+        android:fontFamily="@font/arial_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/due_date"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/taskInput"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/datePickerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_not_set"
+        android:textColor="#FFFFFF"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_below="@id/dueDateLabel"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/ArialBlackTextView"
+        android:padding="16dp"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:id="@+id/notificationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notifications"
+        android:fontFamily="@font/arial_black"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/datePickerBtn"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"/>
+
+    <CheckBox
+        android:id="@+id/notificationCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enable_notifications"
+        android:fontFamily="@font/arial_black"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/notificationLabel"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/addToListLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_list"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/notificationCheck"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"
+        android:fontFamily="@font/arial_black"/>
+    <Spinner
+        android:id="@+id/listSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addToListLabel"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="300dp"
+        android:contentDescription="@string/done"
+        app:backgroundTint="@color/white"
+        android:src="@drawable/baseline_check_24"
+        />
+    
+
+
+    </RelativeLayout>
